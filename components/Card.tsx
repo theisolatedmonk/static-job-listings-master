@@ -4,8 +4,8 @@ type Props = {}
 
 export default function Card({ }: Props) {
     return (
-        <div className='flex justify-between p-2'>
-            <div className="flex gap-2 items-center">
+        <div className='flex justify-between sm:flex-row flex-col gap-4 p-2'>
+            <div className="flex gap-2 sm:flex-row flex-col sm:items-center ">
                 <Image src={'./images/photosnap.svg'} alt={''} width={60} height={60} />
 
                 <div className="flex flex-col gap-2">
@@ -24,8 +24,9 @@ export default function Card({ }: Props) {
                     </div>
                 </div>
             </div>
+            <hr className="sm:hidden w-full  " />
+            <div className="flex gap-2 sm:items-center sm:justify-center justify-start sm:flex-row flex-wrap ">
 
-            <div className="flex gap-2 items-center justify-center ">
                 <p className="">font</p>
             </div>
         </div>

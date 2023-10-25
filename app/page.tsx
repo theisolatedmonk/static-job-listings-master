@@ -4,7 +4,7 @@ import Card from '@/components/Card'
 
 export default function Home() {
   return (
-    <div className="w-full h-screen flex-col flex gap-3">
+    <div className="w-full h-screen flex-col flex gap-3 font-Montserrat">
       <Card />
     </div>
   )
